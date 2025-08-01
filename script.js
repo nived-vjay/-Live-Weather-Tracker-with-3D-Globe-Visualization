@@ -166,5 +166,3 @@ function updateLiveTime() {
 setInterval(updateLiveTime, 1000);
 updateLiveTime();
 getWeatherByCity('Chennai'); 
-
-
