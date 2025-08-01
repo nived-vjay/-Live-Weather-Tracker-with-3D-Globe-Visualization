@@ -6,7 +6,7 @@ function initGlobeBackground() {
     camera = new THREE.PerspectiveCamera();
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-    camera.position.z = 150;
+    camera.position.z = 50;
 
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -166,4 +166,5 @@ function updateLiveTime() {
 setInterval(updateLiveTime, 1000);
 updateLiveTime();
 getWeatherByCity('Chennai'); 
+
 
