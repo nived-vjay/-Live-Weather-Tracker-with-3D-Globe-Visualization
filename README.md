@@ -1,0 +1,2 @@
+# -Live-Weather-Tracker-with-3D-Globe-Visualization
+Live weather app using HTML, CSS &amp; JS with an interactive 3D Earth (Three.js &amp; Three-Globe). Fetches real-time weather via OpenWeatherMap API. Users can search by city or use current location; the globe rotates to highlight the location.
